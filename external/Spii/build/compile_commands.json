@@ -1,0 +1,497 @@
+[
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/test_meschach_torture.dir/torture.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/torture.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/torture.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/bdfactor.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/bdfactor.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/bdfactor.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/bkpfacto.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/bkpfacto.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/bkpfacto.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/chfactor.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/chfactor.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/chfactor.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/copy.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/copy.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/copy.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/err.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/err.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/err.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/extras.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/extras.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/extras.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/fft.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/fft.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/fft.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/givens.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/givens.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/givens.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/hessen.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/hessen.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/hessen.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/hsehldr.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/hsehldr.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/hsehldr.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/init.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/init.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/init.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/iter0.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/iter0.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/iter0.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/iternsym.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/iternsym.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/iternsym.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/itersym.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/itersym.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/itersym.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/ivecop.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/ivecop.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/ivecop.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/lufactor.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/lufactor.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/lufactor.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/machine.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/machine.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/machine.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/matlab.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/matlab.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/matlab.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/matop.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/matop.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/matop.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/matrixio.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/matrixio.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/matrixio.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/meminfo.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/meminfo.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/meminfo.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/memory.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/memory.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/memory.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/memstat.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/memstat.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/memstat.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/mfunc.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/mfunc.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/mfunc.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/norm.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/norm.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/norm.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/otherio.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/otherio.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/otherio.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/pxop.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/pxop.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/pxop.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/qrfactor.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/qrfactor.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/qrfactor.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/schur.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/schur.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/schur.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/solve.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/solve.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/solve.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/sparse.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/sparse.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/sparse.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/sparseio.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/sparseio.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/sparseio.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/spbkp.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/spbkp.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/spbkp.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/spchfctr.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/spchfctr.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/spchfctr.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/splufctr.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/splufctr.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/splufctr.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/sprow.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/sprow.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/sprow.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/spswap.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/spswap.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/spswap.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/submat.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/submat.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/submat.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/svd.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/svd.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/svd.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/symmeig.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/symmeig.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/symmeig.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/update.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/update.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/update.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/vecop.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/vecop.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/vecop.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/meschach.dir/version.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/version.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/version.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/thirdparty/meschach",
+  "command": "/usr/bin/cc  -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -w -fpic -O3 -DNDEBUG   -o CMakeFiles/test_meschach_sptort.dir/sptort.c.o   -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/sptort.c",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach/sptort.c"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/benchmarks",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/benchmark_solver.dir/benchmark_solver.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/benchmarks/benchmark_solver.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/benchmarks/benchmark_solver.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/benchmarks",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/benchmark_function.dir/benchmark_function.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/benchmarks/benchmark_function.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/benchmarks/benchmark_function.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/benchmarks",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/benchmark_bundle.dir/benchmark_bundle.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/benchmarks/benchmark_bundle.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/benchmarks/benchmark_bundle.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/examples",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/ellipse_constraint.dir/ellipse_constraint.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/ellipse_constraint.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/ellipse_constraint.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/examples",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/fit_gaussian_confidence_interval.dir/fit_gaussian_confidence_interval.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/fit_gaussian_confidence_interval.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/fit_gaussian_confidence_interval.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/examples",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/fit_cir.dir/fit_cir.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/fit_cir.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/fit_cir.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/examples",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/svm.dir/svm.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/svm.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/svm.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/examples",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/neural_net.dir/neural_net.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/neural_net.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/neural_net.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/examples",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/curvature.dir/curvature.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/curvature.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/curvature.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/examples",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/standalone_example.dir/standalone_example.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/standalone_example.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/standalone_example.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/examples",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/denoising.dir/denoising.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/denoising.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/denoising.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/examples",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/ellipse.dir/ellipse.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/ellipse.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/ellipse.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/examples",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/lennard_jones.dir/lennard_jones.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/lennard_jones.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/lennard_jones.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/examples",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/linear_programming_constrained_function.dir/linear_programming_constrained_function.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/linear_programming_constrained_function.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/linear_programming_constrained_function.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/examples",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/fit_gaussian.dir/fit_gaussian.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/fit_gaussian.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/examples/fit_gaussian.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/large_tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/large_test_andrei.dir/large_test_andrei.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/large_tests/large_test_andrei.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/large_tests/large_test_andrei.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/function_serializer.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/function_serializer.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/function_serializer.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/solver_newton.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_newton.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_newton.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/spii.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/spii.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/spii.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/solver_line_search.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_line_search.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_line_search.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/constrained_function.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/constrained_function.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/constrained_function.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/solver_stopping_criteria.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_stopping_criteria.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_stopping_criteria.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/solver_pattern_search.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_pattern_search.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_pattern_search.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/solver_global.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_global.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_global.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/solver_newton_factorization_sym_ildl.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_newton_factorization_sym_ildl.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_newton_factorization_sym_ildl.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/solver_newton_factorization.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_newton_factorization.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_newton_factorization.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/solver_lbfgs.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_lbfgs.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_lbfgs.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/term_factory.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/term_factory.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/term_factory.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/function.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/function.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/function.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/term.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/term.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/term.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/solver.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/source",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -Dspii_EXPORTS -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG -fPIC   -o CMakeFiles/spii.dir/solver_nelder_mead.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_nelder_mead.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/source/solver_nelder_mead.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_solver.dir/test_solver.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_solver.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_solver.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_ildl.dir/test_ildl.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_ildl.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_ildl.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_function.dir/test_function.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_function.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_function.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_global.dir/test_global.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_global.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_global.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_dynamic_auto_diff_term.dir/test_dynamic_auto_diff_term.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_dynamic_auto_diff_term.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_dynamic_auto_diff_term.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_suite_nelder_mead.dir/test_suite_nelder_mead.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_suite_nelder_mead.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_suite_nelder_mead.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_nist.dir/test_nist.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_nist.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_nist.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_term_factory.dir/test_term_factory.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_term_factory.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_term_factory.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_suite_newton.dir/test_suite_newton.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_suite_newton.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_suite_newton.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_interval.dir/test_interval.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_interval.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_interval.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_term.dir/test_term.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_term.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_term.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/Catch.dir/main_test_program.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/main_test_program.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/main_test_program.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_suite_constrained.dir/test_suite_constrained.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_suite_constrained.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_suite_constrained.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_function_serializer.dir/test_function_serializer.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_function_serializer.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_function_serializer.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_generic_lambdas.dir/test_generic_lambdas.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_generic_lambdas.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_generic_lambdas.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_spii.dir/test_spii.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_spii.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_spii.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_suite_lbfgs.dir/test_suite_lbfgs.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_suite_lbfgs.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_suite_lbfgs.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_suite_large.dir/test_suite_large.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_suite_large.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_suite_large.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_string.dir/test_string.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_string.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_string.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_constrained_function.dir/test_constrained_function.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_constrained_function.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_constrained_function.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_suite_pattern_search.dir/test_suite_pattern_search.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_suite_pattern_search.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_suite_pattern_search.cpp"
+},
+{
+  "directory": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/tests",
+  "command": "/usr/bin/c++   -DUSE_GENERIC_LAMBDAS -DUSE_OPENMP -I/home/tristan/Programming/3D-Eye-Tracker/external/Spii/include -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Catch -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/Eigen -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/meschach -isystem /home/tristan/Programming/3D-Eye-Tracker/external/Spii/thirdparty/ceres-solver-data   -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   -o CMakeFiles/test_meschach.dir/test_meschach.cpp.o -c /home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_meschach.cpp",
+  "file": "/home/tristan/Programming/3D-Eye-Tracker/external/Spii/tests/test_meschach.cpp"
+}
+]

@@ -13,6 +13,7 @@
 #include <boost/serialization/string.hpp>
 #include <boost/thread.hpp>
 #include <boost/math/quaternion.hpp>
+#include <boost/array.hpp>
 
 #include <opencv2/core.hpp>
 
@@ -161,7 +162,7 @@ public:
 	};
 
 
-	Position3D Pose::operator*(const Position3D& x) const
+	Position3D operator*(const Position3D& x) const
 	{
 		return Position3D((q * x) + pos);
 	}

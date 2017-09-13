@@ -1,0 +1,1 @@
+/usr/bin/cc   -w -fpic -O3 -DNDEBUG   CMakeFiles/test_meschach_sptort.dir/sptort.c.o  -o ../../bin/test_meschach_sptort -rdynamic ../../lib/libmeschach.a -lm 

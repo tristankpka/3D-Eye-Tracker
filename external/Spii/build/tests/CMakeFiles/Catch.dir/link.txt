@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libCatch.a  CMakeFiles/Catch.dir/main_test_program.cpp.o
+/usr/bin/ranlib ../lib/libCatch.a

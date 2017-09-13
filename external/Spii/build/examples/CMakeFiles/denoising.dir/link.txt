@@ -1,0 +1,1 @@
+/usr/bin/c++    -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   CMakeFiles/denoising.dir/denoising.cpp.o  -o ../bin/denoising -rdynamic ../lib/libspii.so -lgomp ../lib/libmeschach.a -Wl,-rpath,/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/lib 

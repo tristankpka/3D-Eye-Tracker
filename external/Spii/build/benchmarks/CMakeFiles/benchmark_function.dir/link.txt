@@ -1,0 +1,1 @@
+/usr/bin/c++    -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   CMakeFiles/benchmark_function.dir/benchmark_function.cpp.o  -o ../bin/benchmark_function -rdynamic ../lib/libspii.so -lgomp ../lib/libmeschach.a -Wl,-rpath,/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/lib 

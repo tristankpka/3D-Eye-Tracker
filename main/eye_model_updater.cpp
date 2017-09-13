@@ -248,7 +248,7 @@ double EyeModelUpdater::compute_reliability(cv::Mat &img, sef::Ellipse2D<double>
 		// Unproject the current 2D ellipse observation to a 3D disk
 		singleeyefitter::EyeModelFitter::Circle curr_circle = unproject(img, el, inlier_pts);
 
-		if (curr_circle && !isnan(curr_circle.normal(0, 0))){		
+		if (curr_circle && !std::isnan(curr_circle.normal(0, 0))){		
 			const double displayscale = 1.0;
 			singleeyefitter::Ellipse2D<double> pupil_el(sef::project(curr_circle, focal_length_));
 			realiabiliy = el.similarity(pupil_el);
@@ -279,7 +279,7 @@ void EyeModelUpdater::render(cv::Mat &img, sef::Ellipse2D<double> &el, std::vect
 		// Unproject the current 2D ellipse observation to a 3D disk
 		singleeyefitter::EyeModelFitter::Circle curr_circle = unproject(img, el, inlier_pts);
 
-		if (curr_circle && !isnan(curr_circle.normal(0, 0))){
+		if (curr_circle && !std::isnan(curr_circle.normal(0, 0))){
 			// 3D eyeball
 			cv::RotatedRect rr_eye = eye_tracker::toImgCoord(sef::toRotatedRect(sef::project(simple_fitter_.eye, focal_length_)), img, displayscale);
 			cv::ellipse(img, rr_eye, cv::Vec3b(255, 128, 0), 1, CV_AA);

@@ -1,0 +1,1 @@
+/usr/bin/c++    -fopenmp -std=c++14 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -fpic -O3 -DNDEBUG   CMakeFiles/fit_cir.dir/fit_cir.cpp.o  -o ../bin/fit_cir -rdynamic ../lib/libspii.so -lgomp ../lib/libmeschach.a -Wl,-rpath,/home/tristan/Programming/3D-Eye-Tracker/external/Spii/build/lib 

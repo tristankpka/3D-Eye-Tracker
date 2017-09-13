@@ -57,7 +57,7 @@ bool pupilAreaFitRR(Mat &gray, RotatedRect &rr, vector<Point2f> &allPtsReturn,
 		pupilSearchArea = pupilSearchAreaIn; //default 20: for setting min size of pupil in pixels / 2 
 		pupilSearchXMin = pupilSearchXMinIn; //default 0: distance from left side of image to start pupil search  
 		pupilSearchYMin = pupilSearchYMinIn; //default 0: distance from right side of image to start pupil search  
-		erodeOn = false; //perform erode operation: turn off for one-offs, where eroding the image may actually hurt accuracy
+		erodeOn = true; //perform erode operation: turn off for one-offs, where eroding the image may actually hurt accuracy
 
 		//for timing funcitons
 		unsigned long long Int64 = 0;
@@ -541,7 +541,7 @@ Finds the approximate darkest pixels (an average of many), used on ROI images ge
 @param I input image (converted to grayscale during search process)
 @return a grayscale value
 */
-int getDarkestPixelBetter(Mat& I)
+int getDarkestPixelBetter(const Mat& I)
 {
 	// accept only char type matrices
 	CV_Assert(I.depth() == CV_8U);
@@ -570,10 +570,9 @@ int getDarkestPixelBetter(Mat& I)
 	}
 
 	int i, j;
-	uchar* p;
 	for (i = 2; i < nRows - 2; i = i + 5)
 	{
-		p = I.ptr<uchar>(i);
+		const uchar* p = I.ptr<uchar>(i);
 		for (j = 2; j < nCols - 2; j = j + 5)
 		{
 			minVector.push_back(p[j]);

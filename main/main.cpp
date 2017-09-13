@@ -10,6 +10,7 @@
 #include <vector>
 #include <string>
 #include <sstream>
+#include <functional>
 
 
 #include "ubitrack_util.h" // claibration file handlers
@@ -34,6 +35,8 @@
 #include "eye_model_updater.h" // 3D model builder
 #include "eye_cameras.h" // Camera interfaces
 
+using TrackbarAction = std::function<void(int)>;
+
 
  
 namespace {
@@ -54,7 +57,7 @@ int main(int argc, char *argv[]){
 	InputMode input_mode =
 		//InputMode::VIDEO;  // Set a video as a video source
         // InputMode::CAMERA; // Set two cameras as video sources
-		 InputMode::CAMERA_MONO; // Set a camera as video sources
+    InputMode::CAMERA_MONO; // Set a camera as video sources
 	    // InputMode::IMAGE;// Set an image as a video source
 
 
@@ -163,7 +166,7 @@ int main(int argc, char *argv[]){
 		case InputMode::CAMERA:
 			camera_indices[0] = 0;
 			camera_indices[1] = 2;
-#if 0
+#ifndef DIRECT_SHOW_AVAILABLE
 			// OpenCV HighGUI frame grabber
 			eyecams[0] = std::make_unique<eye_tracker::EyeCamera>(camera_indices[0], false);
 			eyecams[1] = std::make_unique<eye_tracker::EyeCamera>(camera_indices[1], false);
@@ -180,7 +183,11 @@ int main(int argc, char *argv[]){
 			file_stems = { "cam0", "cam1" };
 			break;
 		case InputMode::CAMERA_MONO:
+#ifndef DIRECT_SHOW_AVAILABLE
+		    eyecams[0] = std::make_unique<eye_tracker::EyeCamera>(camera_indices[0], false);
+#else
 			eyecams[0] = std::make_unique<eye_tracker::EyeCameraDS>("Pupil Cam1 ID0"); //
+#endif
 			eye_model_updaters[0] = std::make_unique<eye_tracker::EyeModelUpdater>(focal_length, 5, 0.5);
 			camera_undistorters[0] = std::make_unique<eye_tracker::CameraUndistorter>(K, distCoeffs);
 			window_names = { "Cam0" };
@@ -190,9 +197,9 @@ int main(int argc, char *argv[]){
 			break;
 		}
 	}
-	catch (char *c){
+	catch (char const* msg){
 		std::cout << "Exception: ";
-		std::cout << c << std::endl;
+		std::cout << msg << std::endl;
 		return 0;
 	}
 
@@ -200,8 +207,54 @@ int main(int argc, char *argv[]){
 	////////////////////////
 	// 2D pupil detector
 	PupilFitter pupilFitter;
-	pupilFitter.setDebug(false);
+	pupilFitter.setDebug(true   );
 	/////////////////////////
+
+    // Create TrackBar to tune pupil detector parameters
+     // Create a window
+    cv::namedWindow("Cam0", WINDOW_NORMAL); // TODO add multiple cameras windows
+    cv::resizeWindow("Cam0", 800, 600);
+    cv::TrackbarCallback trackbarCallback = [] (int pos, void* userdata) { (*(TrackbarAction*)userdata)(pos); };
+    
+    int pupilSearchAreaIn = 10;
+    int pupilSearchAreaInSlider = pupilSearchAreaIn;
+    TrackbarAction a1 = [&](int pupilSearchAreaInSlider) { pupilSearchAreaIn = pupilSearchAreaInSlider; };
+    cv::createTrackbar( "pupilSearchAreaIn", "Cam0", &pupilSearchAreaInSlider, 100, trackbarCallback, (void*)&a1 );
+    
+    int pupilSearchXMinIn = 0;
+    int pupilSearchXMinInSlider = pupilSearchXMinIn;
+    TrackbarAction a2 = [&](int pupilSearchXMinInSlider) { pupilSearchXMinIn = pupilSearchXMinInSlider; };
+    cv::createTrackbar( "pupilSearchXMinIn", "Cam0", &pupilSearchXMinInSlider, 100, trackbarCallback, (void*)&a2 );
+
+    int pupilSearchYMinIn = 0;
+    int pupilSearchYMinInSlider = pupilSearchYMinIn;
+    TrackbarAction a3 = [&](int pupilSearchYMinInSlider) { pupilSearchYMinIn = pupilSearchYMinInSlider; };
+    cv::createTrackbar( "pupilSearchYMinIn", "Cam0", &pupilSearchYMinInSlider, 100, trackbarCallback, (void*)&a3 );
+
+    int lowThresholdCannyIn = 10;
+    int lowThresholdCannyInSlider = lowThresholdCannyIn;
+    TrackbarAction a4 = [&](int lowThresholdCannyInSlider) { lowThresholdCannyIn = lowThresholdCannyInSlider; };
+    cv::createTrackbar( "lowThresholdCannyIn", "Cam0", &lowThresholdCannyInSlider, 100, trackbarCallback, (void*)&a4 );
+
+    int highThresholdCannyIn = 30;
+    int highThresholdCannyInSlider = highThresholdCannyIn;
+    TrackbarAction a5 = [&](int highThresholdCannyInSlider) { highThresholdCannyIn = highThresholdCannyInSlider; };
+    cv::createTrackbar( "highThresholdCannyIn", "Cam0", &highThresholdCannyInSlider, 100, trackbarCallback, (void*)&a5 );
+
+    int sizeIn = 240;
+    int sizeInSlider = sizeIn;
+    TrackbarAction a6 = [&](int sizeInSlider) { sizeIn = sizeInSlider; };
+    cv::createTrackbar( "sizeIn", "Cam0", &sizeInSlider, 500, trackbarCallback, (void*)&a6 );
+
+    int darkestPixelL1In = 10;
+    int darkestPixelL1InSlider = darkestPixelL1In;
+    TrackbarAction a7 = [&](int sizeInSlider) { darkestPixelL1In = darkestPixelL1InSlider; };
+    cv::createTrackbar( "darkestPixelL1In", "Cam0", &darkestPixelL1InSlider, 500, trackbarCallback, (void*)&a7 );
+
+    int darkestPixelL2In = 20; 
+    int darkestPixelL2InSlider = darkestPixelL2In;
+    TrackbarAction a8 = [&](int darkestPixelL2InSlider) { darkestPixelL2In = darkestPixelL2InSlider; };
+    cv::createTrackbar( "darkestPixelL2In", "Cam0", &darkestPixelL2InSlider, 500, trackbarCallback, (void*)&a8 );
 
 	// Main loop
 	const char kTerminate = 27;//Escape 0x1b
@@ -252,7 +305,8 @@ int main(int argc, char *argv[]){
 			std::vector<cv::Point2f> inlier_pts;
 			cv::cvtColor(img, img_grey, CV_RGB2GRAY);
 			cv::RotatedRect rr_pf;
-			bool is_pupil_found = pupilFitter.pupilAreaFitRR(img_grey, rr_pf, inlier_pts);
+            
+			bool is_pupil_found = pupilFitter.pupilAreaFitRR(img_grey, rr_pf, inlier_pts, pupilSearchAreaIn, pupilSearchXMinIn, pupilSearchYMinIn, lowThresholdCannyIn, highThresholdCannyIn, sizeIn, darkestPixelL1In, darkestPixelL2In);
 
 			singleeyefitter::Ellipse2D<double> el = singleeyefitter::toEllipse<double>(eye_tracker::toImgCoordInv(rr_pf, img, 1.0));
 
@@ -275,7 +329,7 @@ int main(int argc, char *argv[]){
 			}
 
 			// Visualize results
-			if (cam == 0 && kVisualization) {
+			if ( kVisualization) {
 
 				// 2D pupil
 				if (is_pupil_found) {
@@ -284,14 +338,15 @@ int main(int argc, char *argv[]){
 
 				// 3D eye ball
 				if (eye_model_updaters[cam]->is_model_built()) {
-					cv::putText(img, "Reliability: " + std::to_string(ellipse_realiability), cv::Point(30, 440), cv::FONT_HERSHEY_SIMPLEX, 1.0, cv::Scalar(0, 128, 255), 1);
+					//std::cout << "Reliability: " + std::to_string(ellipse_realiability) << std::endl;
+					cv::putText(img_rgb_debug, "Reliability: " + std::to_string(ellipse_realiability), cv::Point(30, 30), cv::FONT_HERSHEY_SIMPLEX, 1.0, cv::Scalar(0, 128, 255), 1);
 					if (is_reliable) {
 						eye_model_updaters[cam]->render(img_rgb_debug, el, inlier_pts);
 					}
 				}else{
 					eye_model_updaters[cam]->render_status(img_rgb_debug);
-					cv::putText(img, "Sample #: " + std::to_string(eye_model_updaters[cam]->fitter_count()) + "/" + std::to_string(eye_model_updaters[cam]->fitter_end_count()),
-						cv::Point(30, 440), cv::FONT_HERSHEY_SIMPLEX, 1.0, cv::Scalar(0, 128, 255), 2);
+					cv::putText(img_rgb_debug, "Sample #: " + std::to_string(eye_model_updaters[cam]->fitter_count()) + "/" + std::to_string(eye_model_updaters[cam]->fitter_end_count()),
+						cv::Point(30, 30), cv::FONT_HERSHEY_SIMPLEX, 1.0, cv::Scalar(0, 128, 255), 2);
 				}
 
 				cv::imshow(window_names[cam], img_rgb_debug);
