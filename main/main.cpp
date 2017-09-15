@@ -12,8 +12,6 @@
 #include <sstream>
 #include <functional>
 
-
-#include "ubitrack_util.h" // claibration file handlers
 #include <boost/foreach.hpp>
 #include <boost/filesystem.hpp>
 #include <boost/filesystem/path.hpp>
@@ -26,6 +24,7 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
 #include <opencv2/photo/photo.hpp>
+
 
 
 #include "pupilFitter.h" // 2D pupil detector
@@ -104,18 +103,16 @@ int main(int argc, char *argv[]){
 
 	
 	//// Camera intrinsic parameters
-	std::string calib_path="../../docs/cameraintrinsics_eye.txt";
-	eye_tracker::UbitrackTextReader<eye_tracker::Caib> ubitrack_calib_text_reader;
-	if (ubitrack_calib_text_reader.read(calib_path) == false){
-		std::cout << "Calibration file onpen error: " << calib_path << std::endl;
+	cv::FileStorage fs("../../docs/camera_info.yml", cv::FileStorage::READ);
+	if (!fs.isOpened()){
+		std::cout << "Couldn't open calibration file" << std::endl;
 		return -1;
 	}
-	cv::Mat K; // Camera intrinsic matrix in OpenCV format
-	cv::Vec<double, 8> distCoeffs; // (k1 k2 p1 p2 [k3 [k4 k5 k6]]) // k: radial, p: tangential
-	ubitrack_calib_text_reader.data_.get_parameters_opencv_default(K, distCoeffs);
-
-	// Focal distance used in the 3D eye model fitter
-	double focal_length = (K.at<double>(0,0)+K.at<double>(1,1))*0.5; //  Required for the 3D model fitting
+	cv::Mat K, dcoef; // Camera intrinsic matrix in OpenCV format
+	fs["camera_matrix"] >> K;
+	fs["distortion_coefficients"] >> dcoef; // 5 coefs
+	cv::Vec<double, 8> distCoeffs = { dcoef.at<double>(0), dcoef.at<double>(1), dcoef.at<double>(2), dcoef.at<double>(3), dcoef.at<double>(4), 0, 0, 0}; // (k1 k2 p1 p2 [k3 [k4 k5 k6]]) // k: radial, p: tangential
+	double focal_length = (K.at<double>(0,0)+K.at<double>(1,1))*0.5; //  Required for the 3D model fitting*/
 
 	
 	// Set mode parameters

@@ -270,7 +270,7 @@ double EyeModelUpdater::compute_reliability(cv::Mat &img, sef::Ellipse2D<double>
 	}
 	return realiabiliy;
 }
-
+//cv::Point EyeModelUpdater::getEyeCenter();
 void EyeModelUpdater::render(cv::Mat &img, sef::Ellipse2D<double> &el, std::vector<cv::Point2f> &inlier_pts){
 
 	if (simple_fitter_.eye){
@@ -284,6 +284,7 @@ void EyeModelUpdater::render(cv::Mat &img, sef::Ellipse2D<double> &el, std::vect
 			cv::RotatedRect rr_eye = eye_tracker::toImgCoord(sef::toRotatedRect(sef::project(simple_fitter_.eye, focal_length_)), img, displayscale);
 			cv::ellipse(img, rr_eye, cv::Vec3b(255, 128, 0), 1, CV_AA);
 			cv::circle(img, rr_eye.center, 3, cv::Vec3b(255, 128, 0), 1); // Eyeball center projection
+			std::cout << "3D eyeball sphere : " << simple_fitter_.eye << std::endl;
 
 			// 3D pupil
 			singleeyefitter::Ellipse2D<double> pupil_el(sef::project(curr_circle, focal_length_));
@@ -297,6 +298,7 @@ void EyeModelUpdater::render(cv::Mat &img, sef::Ellipse2D<double> &el, std::vect
 			singleeyefitter::Ellipse2D<double> e_end(sef::project(c_end, focal_length_));
 			cv::RotatedRect rr_end = eye_tracker::toImgCoord(singleeyefitter::toRotatedRect(e_end), img, displayscale);
 			cv::line(img, cv::Point(rr_pupil.center), cv::Point(rr_end.center), cv::Vec3b(0, 255, 128), 2, CV_AA);
+			std::cout << "3D gaze vector : " << c_end.centre - curr_circle.centre << std::endl;
 
 		}
 	}
