@@ -46,7 +46,16 @@ bool pupilAreaFitRR(Mat &gray, RotatedRect &rr, vector<Point2f> &allPtsReturn,
 	int lowThresholdCannyIn = 10, int highThresholdCannyIn = 30,
 	int sizeIn = 240, int darkestPixelL1In = 10, int darkestPixelL2In = 20) 
 	{
-
+		// To handle cropping
+		frameWidth = gray.size().width;
+		frameHeight = gray.size().height;
+		/*std::cout << "size" << std::endl;
+		std::cout << frameHeight << std::endl;
+		std::cout << frameWidth << std::endl;*/
+		if(sizeIn > std::min(frameWidth, frameHeight))
+			sizeIn = std::min(frameWidth, frameHeight);
+		//
+		
 		//global params (magic numbers) for setting, these should be set per-user, see main for params
 		//default values
 		lowThresholdCanny = lowThresholdCannyIn; //default 10: for detecting dark (low contrast) parts of pupil
@@ -68,11 +77,17 @@ bool pupilAreaFitRR(Mat &gray, RotatedRect &rr, vector<Point2f> &allPtsReturn,
 
 
 		//correct bounds
-		darkestPixelConfirm = correctBounds(darkestPixelConfirm, size);
+		std::cout << "correct bounds" << std::endl;
+		darkestPixelConfirm = correctBounds(darkestPixelConfirm, size, frameWidth, frameHeight);
 
 		//find darkest pixel (for thresholding
+		/*std::cout << "find darkest pixel" << std::endl;
+		std::cout << darkestPixelConfirm.x << std::endl;
+		std::cout << darkestPixelConfirm.y << std::endl;
+		std::cout << size << std::endl;
+		std::cout << size << std::endl;*/
 		int darkestPixel = getDarkestPixelBetter(gray(cv::Rect(darkestPixelConfirm.x, darkestPixelConfirm.y, size, size)));
-
+		//std::cout << "end darkest pixel" << std::endl;
 		int kernel_size = 3;
 		int scale = 1;
 		int delta = 0;
@@ -90,6 +105,7 @@ bool pupilAreaFitRR(Mat &gray, RotatedRect &rr, vector<Point2f> &allPtsReturn,
 		}
 
 		//set ROI and thresh for testing
+		//std::cout << "set ROI and thresh for testing" << std::endl;
 		threshold(gray(cv::Rect(darkestPixelConfirm.x, darkestPixelConfirm.y, size, size)), threshLow, (darkestPixel + darkestPixelL1), 255, 1);
 
 		if (threshDebug) {
@@ -123,11 +139,12 @@ bool pupilAreaFitRR(Mat &gray, RotatedRect &rr, vector<Point2f> &allPtsReturn,
 		int size2 = size;
 
 		//Thresh 2
+		//std::cout << "Thresh 2" << std::endl;
 		threshold(gray(cv::Rect(darkestPixelConfirm.x, darkestPixelConfirm.y, size2, size2)), threshHigh, (darkestPixel + darkestPixelL2), 255, 1);
 
 		if (threshDebug) {
 			//test threshing
-			imshow("threshMid", threshHigh);
+			imshow("threshHigh", threshHigh);
 			//waitKey(1);
 		}
 
@@ -150,6 +167,7 @@ bool pupilAreaFitRR(Mat &gray, RotatedRect &rr, vector<Point2f> &allPtsReturn,
 		int kernel2 = 3;
 
 		//run Canny to get best candiate points from contours 
+		//std::cout << "Canny" << std::endl;
 		Canny(gray(cv::Rect(darkestPixelConfirm.x, darkestPixelConfirm.y, size2, size2)), thresh3, lowThresholdCanny, lowThresholdCanny*ratio, kernel2);
 		Canny(gray(cv::Rect(darkestPixelConfirm.x, darkestPixelConfirm.y, size2, size2)), thresh4, highThresholdCanny, highThresholdCanny*ratio, kernel2);
 
@@ -722,7 +740,7 @@ Point getDarkestPixelArea(Mat& I)
 	return ROI;
 }
 
-Point correctBounds(Point input, int maxSize){
+Point correctBounds(Point input, int maxSize, int w, int h){
 
 	//maximum size (L or W) of pupil ROI
 	int size = maxSize;
@@ -738,17 +756,17 @@ Point correctBounds(Point input, int maxSize){
 	if (newX < 0){
 		newX += -newX;
 	}
-	else if (newX > 639 - size){
-		newX -= newX - 639 + size;
-		//std::cout << "oops" << endl;
+	else if (newX > (w-1) - size){
+		newX -= newX - w + size;
+		std::cout << "oops" << endl;
 	}
 
 	if (newY < 0){
 		newY += -newY;
 	}
-	else if (newY > 479 - size){
-		newY -= newY - 479 + size;
-		//std::cout << "oops2" << endl;
+	else if (newY > (h-1) - size){
+		newY -= newY - h + size;
+		std::cout << "oops2" << endl;
 	}
 
 	//new point is not out of bounds

@@ -256,6 +256,8 @@ int main(int argc, char *argv[]){
 	// Main loop
 	const char kTerminate = 27;//Escape 0x1b
 	bool is_run = true;
+	bool ROI_selected = false;
+	cv::Rect2d ROI(10, 10, 100, 100); // ROI on cam
 	while (is_run) {
 
 		// Fetch key input
@@ -275,17 +277,28 @@ int main(int argc, char *argv[]){
 		}
 		// Process each camera images
 		for (size_t cam = 0; cam < kCameraNums; cam++) {
-			cv::Mat &img = images[cam];
-			if (img.empty()) {
+			cv::Mat &img_cam = images[cam];
+			if (img_cam.empty()) {
 				//is_run = false;
 				break;
 			}
-
+			
 			// Undistort a captured image
-			camera_undistorters[cam]->undistort(img, img);
+			camera_undistorters[cam]->undistort(img_cam, img_cam);	
+			
+			// Handling ROI
+			cv::Mat img;
+			if(ROI_selected){
+				img = img_cam(ROI);
+				//cv::imshow("roi", img);
+			}
+			else{
+				img = img_cam;
+
+			}
 
 			cv::Mat img_rgb_debug = img.clone();
-			cv::Mat img_grey;
+
 
 			switch (kKEY) {
 			case 'r':
@@ -294,20 +307,26 @@ int main(int argc, char *argv[]){
 			case 'p':
 				eye_model_updaters[cam]->add_fitter_max_count(10);
 				break;
+			case 'i':
+				ROI = selectROI(img_cam);
+				ROI_selected = true;
+				break;
 			default:
 				break;
 			}
 
 			// 2D ellipse detection
 			std::vector<cv::Point2f> inlier_pts;
+			cv::Mat img_grey;
 			cv::cvtColor(img, img_grey, CV_RGB2GRAY);
 			cv::RotatedRect rr_pf;
-            
+            std::cout << "pupil search" << std::endl;
 			bool is_pupil_found = pupilFitter.pupilAreaFitRR(img_grey, rr_pf, inlier_pts, pupilSearchAreaIn, pupilSearchXMinIn, pupilSearchYMinIn, lowThresholdCannyIn, highThresholdCannyIn, sizeIn, darkestPixelL1In, darkestPixelL2In);
-
+			std::cout << "end pupil search" << std::endl;
 			singleeyefitter::Ellipse2D<double> el = singleeyefitter::toEllipse<double>(eye_tracker::toImgCoordInv(rr_pf, img, 1.0));
-
+			
 			// 3D eye pose estimation
+			std::cout << "pose esti" << std::endl;
 			bool is_reliable = false;
 			bool is_added = false;
 			const bool force_add = false;
@@ -321,34 +340,38 @@ int main(int argc, char *argv[]){
 				}
 				else {
 					is_added = eye_model_updaters[cam]->add_observation(img_grey, el, inlier_pts, force_add);
-				}
-
+				} 
 			}
-
+			std::cout << "debut visu" << std::endl;
 			// Visualize results
 			if ( kVisualization) {
 
 				// 2D pupil
 				if (is_pupil_found) {
+					std::cout << "pupil found" << std::endl;
 					cv::ellipse(img_rgb_debug, rr_pf, cv::Vec3b(255, 128, 0), 1);
 				}
 
 				// 3D eye ball
 				if (eye_model_updaters[cam]->is_model_built()) {
+					std::cout << "eye model built" << std::endl;
 					//std::cout << "Reliability: " + std::to_string(ellipse_realiability) << std::endl;
 					cv::putText(img_rgb_debug, "Reliability: " + std::to_string(ellipse_realiability), cv::Point(30, 30), cv::FONT_HERSHEY_SIMPLEX, 1.0, cv::Scalar(0, 128, 255), 1);
 					if (is_reliable) {
+						std::cout << "eye model reliable" << std::endl;
 						eye_model_updaters[cam]->render(img_rgb_debug, el, inlier_pts);
 					}
 				}else{
+					std::cout << "eye model status" << std::endl;
 					eye_model_updaters[cam]->render_status(img_rgb_debug);
 					cv::putText(img_rgb_debug, "Sample #: " + std::to_string(eye_model_updaters[cam]->fitter_count()) + "/" + std::to_string(eye_model_updaters[cam]->fitter_end_count()),
 						cv::Point(30, 30), cv::FONT_HERSHEY_SIMPLEX, 1.0, cv::Scalar(0, 128, 255), 2);
 				}
-
+				std::cout << "imshow" << std::endl;
 				cv::imshow(window_names[cam], img_rgb_debug);
 
 			} // Visualization
+			std::cout << "fin visu" << std::endl;
 
 		} // For each cameras
 
